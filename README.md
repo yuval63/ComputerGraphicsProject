@@ -8,7 +8,7 @@
 I made the main screen & the options menu.
 
 * Cube model+animation - 1 hour (took time to make each one of the 27 unique cubes and animate it to spin)
-* Make the sky box - 1 hour (had some problems with the cubic resource)
+* Make the sky box - 1 hour (had some problems with the materials and the creation)
 * The main menu itself  - 1 hour (logo,functional buttons, add the model)
 * Options menu - 1 hour (28 buttons, each one focus on a different setting)
 * Make other models+their animations - 1 hour (platforms,small cubes, characters, etc..)
