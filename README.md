@@ -44,3 +44,18 @@ In this week I was sick so sadly I didn't do as much as I hoped for but my main 
 - Worked on collectables (learning+implementation) - 1 hour. started working on the c++ class and learn how to implement using overlapping
 - Worked on using widgets through the engine - 1 hour. Tried different methods and tested them.
 
+### Week 4
+### ------------------
+- Worked on lighting & materials:  1 hour (made sure the walls and object can be seen well in a giant room without using lamps, also gave fitting textures
+to objects fox example metalic texture to coins or glowing for certan objects)
+- Worked on stats for the player: 1.5 hours (stats such as number of deaths, number of rooms visited, number of coins collected etc...)
+- Worked on some widgets: 1 hour (widgets such as a hud or a "press interact to use" near objects the user can interact with)
+- Started working on platforms: 1.5 hour (special black platform that kills the player, blue one that forces the player to walk etc...)
+- Finished the collectables & tested both them and portals: 1 hour (made sure the collectable interact with the stats, and work according to their use)
+- Started working on the first level: 1 hour (build it from blocks, put the coins in the right place, etc...)
+
+![image](https://user-images.githubusercontent.com/92427271/203572278-af00729a-002d-4db3-98ea-2d3202c349b1.png)
+
+![image](https://user-images.githubusercontent.com/92427271/203572453-b2d64bf1-ef0c-45ba-9c64-a7988590ebed.png)
+
+
