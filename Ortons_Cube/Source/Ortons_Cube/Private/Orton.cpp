@@ -64,10 +64,6 @@ void AOrton::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (GetCharacterMovement()->Velocity.Z < 0) {
-		GetCharacterMovement()->JumpZVelocity = 700.f;
-
-	}
 
 
 	if (shouldKill) {
@@ -159,7 +155,8 @@ void AOrton::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis(TEXT("Move Forward / Backward"), this, &AOrton::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Move Right / Left"), this, &AOrton::MoveRight);
 
-	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &AOrton::Jump);
+		PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &AOrton::Jump);
+	
 	PlayerInputComponent->BindAction(TEXT("Interact"), IE_Pressed, this, &AOrton::Interact);
 
 
@@ -190,6 +187,11 @@ void AOrton::MoveRight(float Value) {
 	AddMovementInput(GetActorRightVector() * Value);
 
 }
+
+void AOrton::AddNewMovementInput(FVector newMovement) {
+	AddMovementInput(newMovement);
+}
+
 
 
 void AOrton::Interact() {
@@ -321,10 +323,7 @@ int AOrton::getTotalPortalsVisited() {
 
 void AOrton::kill() {
 
-	if (GEngine) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("kills before: %d & %d"), deathsInRoom[currentRoom], totalDeaths));
 
-	}
 
 	if (totalDeaths < 99999) {
 		totalDeaths++;
@@ -332,11 +331,13 @@ void AOrton::kill() {
 
 
 	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(checkPoint);
+	setSpeed(FVector(0.f, 0.f, 0.f));
 	
 	if (deathsInRoom[currentRoom] < 99999) {
 		deathsInRoom[currentRoom]++;
 	}
 
+	/**
 	if (endingUnlocked[0] == false) {
 		//if (currentRoom < 5) {
 		//}
@@ -348,15 +349,12 @@ void AOrton::kill() {
 			}
 		}
 		if (diedEnough == true) {
+		**/
+	if (totalDeaths >= 100) {
 			endingUnlocked[0] = true;
 			checkEndings();
 		}
-	}
 
-	if (GEngine) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("kills after: %d & %d"), deathsInRoom[currentRoom], totalDeaths));
-
-	}
 
 }
 
@@ -452,6 +450,7 @@ void AOrton::setJumpVelocity(float newVelocity) {
 void AOrton::forceJump(float jumpHeight) {
 	GetCharacterMovement()->Velocity.Z = jumpHeight;
 }
+
 
 /**
 void AOrton::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

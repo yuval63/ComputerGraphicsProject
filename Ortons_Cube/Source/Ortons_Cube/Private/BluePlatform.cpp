@@ -24,12 +24,61 @@ void ABluePlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (onPlatform) {
+		OnInteraction();
+	}
 }
 
 void ABluePlatform::OnInteraction() {
  
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Here?"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Here?!?!"));
+	//player->GetActorRotation().Vector().
+	//player->GetActorRotation().Yaw
+	if (currentRotation >= -135 && currentRotation <= -45) {
+		//player->GetActorForwardVector() = FVector(1.0f, 0.0f, 0.0f);
+		player->AddNewMovementInput(FVector(0.0f, -speed, 0.f));
+		player->AddNewMovementInput(FVector(0.0f, -speed, 0.f));
+		player->AddNewMovementInput(FVector(0.0f, -speed, 0.f));
 
-	player->SetActorRotation(GetActorRotation());
-	player->MoveForward(1.f);
+		//player->SetActorLocation(FVector(player->GetActorLocation().X , player->GetActorLocation().Y - speed, player->GetActorLocation().Z));
+	//	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("one"));
+
+		//GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()
+	}
+	else {
+		if (currentRotation >= -45 && currentRotation <= 45) {
+
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Purple, TEXT("two"));
+			//player->SetActorLocation(FVector(player->GetActorLocation().X + speed , player->GetActorLocation().Y , player->GetActorLocation().Z));
+			player->AddNewMovementInput(FVector(speed, 0.0f, 0.f));
+			player->AddNewMovementInput(FVector(speed, 0.0f, 0.f));
+			player->AddNewMovementInput(FVector(speed, 0.0f, 0.f));
+
+		}
+		else {
+			if (currentRotation >= 45 && currentRotation <= 135) {
+
+				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("three"));
+				//player->SetActorLocation(FVector(player->GetActorLocation().X , player->GetActorLocation().Y + speed, player->GetActorLocation().Z));
+				player->AddNewMovementInput(FVector(0.0f, speed, 0.f));
+				player->AddNewMovementInput(FVector(0.0f, speed, 0.f));
+				player->AddNewMovementInput(FVector(0.0f, speed, 0.f));
+
+
+			}
+			else {
+				if (currentRotation >= 135 || currentRotation <= -135) {
+
+					//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("four"));
+					//player->SetActorLocation(FVector(player->GetActorLocation().X - speed, player->GetActorLocation().Y, player->GetActorLocation().Z));
+					player->AddNewMovementInput(FVector(-speed, 0.f, 0.f));
+					player->AddNewMovementInput(FVector(-speed, 0.f, 0.f));
+					player->AddNewMovementInput(FVector(-speed, 0.f, 0.f));
+
+				}
+			}
+		}
+	}
+
+
 }

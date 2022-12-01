@@ -25,6 +25,10 @@ void AColoredPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+
+
 }
 
 void AColoredPlatform::OnInteraction() {}
+
+void AColoredPlatform::OnStopInteraction() {}

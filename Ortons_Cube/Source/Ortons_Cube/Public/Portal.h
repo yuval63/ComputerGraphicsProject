@@ -33,7 +33,8 @@ protected:
 	
 	UAnimSequence* Anim;
 
-	int portalKind = -1; // -1 is unlocked by default, 0-6 is special endings portal
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+	int portalID = -1; // -1 is unlocked by default, 0-6 is special endings portal
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 		int fromRoomID = -1;

@@ -28,6 +28,7 @@ protected:
 
 public:
 	// Called every frame
+	UFUNCTION(BlueprintCallable)
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
@@ -114,6 +115,8 @@ public:
 
 	void forceJump(float jumpHeight);
 
+	void AddNewMovementInput(FVector newMovement);
+
 	//private:
 protected:
 
@@ -146,6 +149,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 	int showInteractWarning = 0;
+
+
 
 	UAnimSequence* Anim;
 

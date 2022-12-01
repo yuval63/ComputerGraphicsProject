@@ -1,0 +1,1158 @@
+﻿Log file open, 11/29/22 17:37:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=12208)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Ortons_Cube
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "D:\Documents\orton's cube\game\test - Copy (2)\Ortons_Cube\Ortons_Cube.uproject"""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) [10.0.19044.2251] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="8e8c43334270a462eef07ca5c65547a9"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.217646
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-E303202A45AAB52FCAC09CAB5A79FABA
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading IOS ini files took 0.02 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.02 seconds
+LogConfig: Display: Loading Android ini files took 0.02 seconds
+LogConfig: Display: Loading Linux ini files took 0.03 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.01 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogConfig: Display: Loading Unix ini files took 0.02 seconds
+LogConfig: Display: Loading TVOS ini files took 0.02 seconds
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogConfig: Display: Loading Windows ini files took 0.02 seconds
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) [10.0.19044.2251] (), CPU: Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Programs/unreal engine/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.11.29-15.37.08:733][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.11.29-15.37.08:738][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.11.29-15.37.08:749][  0]LogD3D12RHI: Aftermath initialized
+[2022.11.29-15.37.08:749][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.11.29-15.37.08:881][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2060 (Max supported Feature Level 12_1, shader model 6.6)
+[2022.11.29-15.37.08:881][  0]LogD3D12RHI: Adapter has 5968MB of dedicated video memory, 0MB of dedicated system memory, and 16342MB of shared system memory, 2 output[s]
+[2022.11.29-15.37.08:885][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.11.29-15.37.08:885][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16342MB of shared system memory, 0 output[s]
+[2022.11.29-15.37.08:963][  0]LogD3D12RHI: Found D3D12 adapter 2: NVIDIA GeForce RTX 2060 (Max supported Feature Level 12_1, shader model 6.6)
+[2022.11.29-15.37.08:963][  0]LogD3D12RHI: Adapter has 5968MB of dedicated video memory, 0MB of dedicated system memory, and 16342MB of shared system memory, 0 output[s]
+[2022.11.29-15.37.08:963][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.11.29-15.37.08:963][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.11.29-15.37.08:963][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.11.29-15.37.08:963][  0]LogHAL: Display: Platform has ~ 32 GB [34273398784 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.29-15.37.08:963][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.11.29-15.37.08:963][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.11.29-15.37.08:963][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.29-15.37.08:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.11.29-15.37.08:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Saved/Config/WindowsEditor/Editor.ini]
+[2022.11.29-15.37.08:964][  0]LogInit: Computer: DESKTOP-8MK4H34
+[2022.11.29-15.37.08:964][  0]LogInit: User: Yuval2
+[2022.11.29-15.37.08:964][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.11.29-15.37.08:964][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.29-15.37.08:964][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.11.29-15.37.08:964][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.11.29-15.37.08:964][  0]LogMemory: Process Physical Memory: 261.76 MB used, 272.20 MB peak
+[2022.11.29-15.37.08:964][  0]LogMemory: Process Virtual Memory: 209.93 MB used, 209.93 MB peak
+[2022.11.29-15.37.08:964][  0]LogMemory: Physical Memory: 10493.96 MB used,  22191.70 MB free, 32685.66 MB total
+[2022.11.29-15.37.08:964][  0]LogMemory: Virtual Memory: 15307.08 MB used,  24290.58 MB free, 39597.66 MB total
+[2022.11.29-15.37.08:964][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.11.29-15.37.08:968][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.29-15.37.08:979][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.11.29-15.37.08:980][  0]LogInit: Using OS detected language (en-US).
+[2022.11.29-15.37.08:980][  0]LogInit: Using OS detected locale (en-IL).
+[2022.11.29-15.37.08:982][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.11.29-15.37.09:149][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.29-15.37.09:157][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.11.29-15.37.09:157][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2022.11.29-15.37.09:158][  0]LogWindowsTextInputMethodSystem:   - Hebrew (Israel) - (Keyboard).
+[2022.11.29-15.37.09:158][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.11.29-15.37.09:172][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.29-15.37.09:172][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.29-15.37.09:273][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.11.29-15.37.09:276][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.11.29-15.37.09:276][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.11.29-15.37.09:346][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.11.29-15.37.09:400][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.11.29-15.37.09:405][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.11.29-15.37.09:421][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.11.29-15.37.09:432][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.11.29-15.37.09:432][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.11.29-15.37.09:464][  0]LogD3D12RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.29-15.37.09:464][  0]LogWindows: Attached monitors:
+[2022.11.29-15.37.09:464][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY1' [PRIMARY]
+[2022.11.29-15.37.09:464][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1040), device: '\\.\DISPLAY2'
+[2022.11.29-15.37.09:464][  0]LogWindows: Found 2 attached monitors.
+[2022.11.29-15.37.09:464][  0]LogWindows: EnumDisplayDevices:
+[2022.11.29-15.37.09:464][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1), name: '\\.\DISPLAY1'
+[2022.11.29-15.37.09:464][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1), name: '\\.\DISPLAY2'
+[2022.11.29-15.37.09:465][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0), name: '\\.\DISPLAY3'
+[2022.11.29-15.37.09:465][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.11.29-15.37.09:465][  0]LogWindows:    4. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY5'
+[2022.11.29-15.37.09:465][  0]LogWindows:    5. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY6'
+[2022.11.29-15.37.09:465][  0]LogWindows:    6. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY7'
+[2022.11.29-15.37.09:465][  0]LogWindows:    7. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY8'
+[2022.11.29-15.37.09:465][  0]LogWindows:    8. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY9'
+[2022.11.29-15.37.09:465][  0]LogWindows:    9. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY10'
+[2022.11.29-15.37.09:466][  0]LogWindows:    10. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY11'
+[2022.11.29-15.37.09:466][  0]LogWindows:    11. 'Citrix Indirect Display Adapter' (P:0 D:0), name: '\\.\DISPLAY12'
+[2022.11.29-15.37.09:466][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.11.29-15.37.09:466][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2022.11.29-15.37.09:466][  0]LogD3D12RHI:   Driver Version: 517.48 (internal:31.0.15.1748, unified:517.48)
+[2022.11.29-15.37.09:466][  0]LogD3D12RHI:      Driver Date: 9-21-2022
+[2022.11.29-15.37.09:466][  0]LogRHI: Texture pool is 3276 MB (70% of 4680 MB)
+[2022.11.29-15.37.09:466][  0]LogD3D12RHI: Async texture creation enabled
+[2022.11.29-15.37.09:466][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.11.29-15.37.09:475][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.11.29-15.37.09:479][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Ortons_Cube.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/TurnkeyReport_0.log" -log="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/TurnkeyLog_0.log" -project="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Ortons_Cube.uproject"  -platform=all'
+[2022.11.29-15.37.09:479][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Programs/unreal engine/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Ortons_Cube.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/TurnkeyReport_0.log" -log="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/TurnkeyLog_0.log" -project="D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Ortons_Cube.uproject"  -platform=all" ]
+[2022.11.29-15.37.09:495][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.11.29-15.37.09:500][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.11.29-15.37.09:500][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.29-15.37.09:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.29-15.37.09:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.11.29-15.37.09:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.11.29-15.37.09:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.29-15.37.09:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.29-15.37.09:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.29-15.37.09:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.11.29-15.37.09:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.29-15.37.09:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.29-15.37.09:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.11.29-15.37.09:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.11.29-15.37.09:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.11.29-15.37.09:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.29-15.37.09:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.29-15.37.09:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.29-15.37.09:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.11.29-15.37.09:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.29-15.37.09:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.29-15.37.09:536][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.11.29-15.37.09:542][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.29-15.37.09:544][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.11.29-15.37.09:544][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.11.29-15.37.09:544][  0]LogTargetPlatformManager:   ADPCM
+[2022.11.29-15.37.09:544][  0]LogTargetPlatformManager:   PCM
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager:   BINKA
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager:   OGG
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.11.29-15.37.09:546][  0]LogTargetPlatformManager:   OPUS
+[2022.11.29-15.37.09:579][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.11.29-15.37.09:584][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.11.29-15.37.09:586][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.11.29-15.37.09:586][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.11.29-15.37.09:586][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.29-15.37.09:586][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.29-15.37.09:586][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.11.29-15.37.09:587][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.11.29-15.37.09:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.29-15.37.09:589][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.11.29-15.37.09:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.29-15.37.09:589][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.11.29-15.37.09:606][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.11.29-15.37.09:606][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.29-15.37.09:606][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.11.29-15.37.09:611][  0]LogDerivedDataCache: Speed tests for C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.11.29-15.37.09:611][  0]LogDerivedDataCache: Display: Performance to C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1009.65MBs, RandomWriteSpeed=229.16MBs. Assigned SpeedClass 'Local'
+[2022.11.29-15.37.09:613][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.29-15.37.09:613][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.29-15.37.09:613][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.11.29-15.37.09:617][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.11.29-15.37.09:617][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.11.29-15.37.09:617][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Intermediate/Shaders/WorkingDirectory/5840/).
+[2022.11.29-15.37.09:618][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuval2/AppData/Local/Temp/UnrealShaderWorkingDir/0B04DAA74FD2E9A02E8ABE93D85F6D92/'.
+[2022.11.29-15.37.09:618][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.29-15.37.09:618][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2022.11.29-15.37.10:923][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2022.11.29-15.37.10:923][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.29-15.37.10:923][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.29-15.37.10:954][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2022.11.29-15.37.10:958][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Pine_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Pine_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Oak_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Oak_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Water_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Water_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Panel_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Panel_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Dot_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Tech_Dot_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_TableRound_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_TableRound_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Statue_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Spark_Core.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Statue_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Single_Tile_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Shelf_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Smoke_SubUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Shelf_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Slate_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Slate_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_RockMesh_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_RockMesh_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Steel_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Steel_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Rust_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Rust_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Gold_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Gold_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Copper_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_MacroVariation.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Lamp_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Lamp_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ground_Moss_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_ground_Moss_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Gradinet_01.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ground_Grass_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ground_Grass_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Frame_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Frame_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Fire_SubUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Explosion_SubUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Dust_Particle_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Door_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Door_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Checker_Noise_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Chair_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Chair_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Bush_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Bush_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Burst_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_WideCapsule.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Wedge_B.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Tube.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Wedge_A.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_TriPyramid.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Torus.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Trim.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Sphere.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Plane.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Pipe_90.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:121][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Pipe.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Pipe_180.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Cube.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Cylinder.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_WindowFrame.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Shapes/Shape_Cone.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_TableRound.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Stairs.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Rock.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Shelf.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Statue.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_PillarFrame.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_PillarFrame300.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_DoorFrame.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Lamp_Wall.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_GlassWindow.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Door.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_CornerFrame.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Couch.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Bush.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/SM_Chair.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/MaterialSphere.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_StatueGlass.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Statue.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Shelf.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Lamp.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_TableRound.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Rock.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Door.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Chair.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Frame.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Props/Materials/M_Bush.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Spark.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/m_flare_01.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Particles/Materials/M_Burst.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Wood_Walnut.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Wood_Pine.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Wood_Oak.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Water_Ocean.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Water_Lake.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Rock_Slate.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Rock_Sandstone.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Tech_Panel.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Rust.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Copper.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Steel.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Chrome.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Rock_Basalt.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Gold.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Ground_Moss.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Ground_Gravel.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Ground_Grass.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Concrete_Panels.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Concrete_Poured.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Concrete_Tiles.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Concrete_Grime.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Glass.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Brick_Clay_New.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Basic_Wall.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_AssetPlatform.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Basic_Floor.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Maps/StarterMap_BuiltData.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Maps/StarterMap.umap is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Maps/Minimal_Default.umap is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/Skybox.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_Window_400x400.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_Door_400x400.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_Door_400x300.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:122][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_500x500.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_400x400.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_Window_400x300.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_400x300.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Wall_400x200.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/SM_AssetPlatform.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Pillar_50x500.uasset is too new. Engine Version: 1004  Package Version: 1006
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/StarterContent/Architecture/Floor_400x400.uasset is too new. Engine Version: 1004  Package Version: 1008
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/FirstPerson/Blueprints/DePixelBreit.uasset is too new. Engine Version: 1004  Package Version: 1008
+[2022.11.29-15.37.11:123][  0]LogAssetRegistry: Error: Package D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/FirstPerson/Blueprints/BP_MyGameInstance.uasset is too new. Engine Version: 1004  Package Version: 1008
+[2022.11.29-15.37.11:123][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.11.29-15.37.11:123][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.11.29-15.37.11:335][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.11.29-15.37.11:335][  0]LogDeviceProfileManager: Active device profile: [00000588ABB06900][000005889BF70000 50] WindowsEditor
+[2022.11.29-15.37.11:335][  0]LogDeviceProfileManager: Profiles: [00000588ABB063C0][000005889BF72800 50] Windows, [00000588ABB06900][000005889BF70000 50] WindowsEditor, [00000588ABB04600][000005889BF7A000 50] WindowsServer, [00000588ABB00FC0][0000058892207800 50] WindowsClient, [00000588ABB02680][000005889BF27800 50] IOS, [00000588ABB05B00][000005889BF75000 50] iPadAir2, [00000588ABB02D80][00000588ABDB0000 50] IPadPro, [00000588ABB05CC0][00000588ABDB2800 50] iPadAir3, [00000588ABB05780][00000588ABDB7800 50] iPadAir4, [00000588ABB055C0][00000588ABDBA000 50] iPadMini4, [00000588ABB02A00][00000588ABDBC800 50] iPadMini5, [00000588ABB01500][000005889BF25000 50] iPadMini6, [00000588ABB09680][00000588ABDD2800 50] iPhone6S, [00000588ABB09A00][00000588ABDD0000 50] iPhone7, [00000588ABB07000][00000588ABDD5000 50] iPodTouch7, [00000588ABB07FC0][00000588ABDDA000 50] iPhone6SPlus, [00000588ABB03480][00000588ABDDC800 50] iPhone7Plus, [00000588ABB02F40][00000588ABDB5000 50] iPhoneSE, [00000588ABB05940][00000588ABDD7800 50] iPhone8, [00000588ABB01880][00000588ABD90000 50] iPhone8Plus, [00000588ABB09840][00000588ABD95000 50] iPhoneX, [00000588ABB06AC0][00000588ABD97800 50] iPhoneXS, [00000588ABB03800][00000588ABD9A000 50] iPhoneXSMax, [00000588ABB06C80][00000588ABD9C800 50] iPhoneXR, [00000588ABB01F80][00000588A205C800 50] iPhone11, [00000588ABB03B80][00000588ABD80000 50] iPhone11Pro, [00000588ABB02140][00000588ABD85000 50] iPhone11ProMax, [00000588ABB08A40][00000588ABD87800 50] iPhoneSE2, [00000588ABB07700][00000588ABD8A000 50] iPhone12Mini, [00000588ABB094C0][00000588ABD8C800 50] iPhone12, [00000588ABB04440][00000588ABD92800 50] iPhone12Pro, [00000588ABB086C0][00000588ABDE0000 50] iPhone12ProMax, [00000588ABB04280][00000588ABDE5000 50] iPhone13Mini, [00000588ABB07A80][00000588ABDE7800 50] iPhone13, [00000588ABB06740][00000588ABDEA000 50] iPhone13Pro, [00000588ABB040C0][00000588ABDEC800 50] iPhone13ProMax, [00000588ABB02840][00000588ABD82800 50] iPadPro105, [00000588ABB08340][00000588ABDF0000 50] iPadPro129, [00000588ABB04980][00000588ABDF5000 50] iPadPro97, [00000588ABB04EC0][00000588ABDF7800 50] iPadPro2_129, [00000588ABB07540][00000588ABDFA000 50] iPad5, [00000588ABB05400][00000588ABDFC800 50] iPad6, [00000588ABB09300][00000588ABDE2800 50] iPad7, [00000588ABB03100][00000588ABE00000 50] iPad8, [00000588ABB039C0][00000588ABE05000 50] iPad9, [00000588ABB047C0][00000588ABE07800 50] iPadPro11, [00000588ABB08F80][00000588ABE0A000 50] iPadPro2_11, [00000588ABB08880][00000588ABE0C800 50] iPadPro3_11, [00000588ABB078C0][00000588ABDF2800 50] iPadPro3_129, [00000588ABB024C0][00000588ABE10000 50] iPadPro4_129, [00000588ABB016C0][00000588ABE15000 50] iPadPro5_129, [00000588ABB04D00][00000588ABE17800 50] AppleTV, [00000588ABB05E80][00000588ABE1A000 50] AppleTV4K, [00000588ABB09D80][00000588ABE1C800 50] TVOS, [00000588ABB0C400][00000588ABE40000 50] Mac, [00000588ABB0C780][00000588ABE42800 50] MacEditor, [00000588ABB0A480][00000588ABE47800 50] MacClient, [00000588ABB04B40][00000588ABE4A000 50] MacServer, [00000588ABB0C5C0][00000588ABE02800 50] Linux, [00000588ABB0CE80][00000588ABE12800 50] LinuxEditor, [00000588ABB09140][00000588ABE4C800 50] LinuxArm64Editor, [00000588ABB0BEC0][00000588ABE20000 50] LinuxArm64, [00000588ABB05240][00000588ABE25000 50] LinuxClient, [00000588ABB0D040][00000588ABE27800 50] LinuxArm64Client, [00000588ABB02300][00000588ABE2A000 50] LinuxServer, [00000588ABB06040][00000588ABE2C800 50] LinuxArm64Server, [00000588ABB08180][00000588ABE45000 50] Android, [00000588ABB071C0][00000588ABE30000 50] Android_Preview_OpenGL, [00000588ABB09F40][00000588ABE35000 50] Android_Preview_Vulkan, [00000588ABB0BB40][00000588ABE37800 50] Android_Low, [00000588ABB07380][00000588ABE3A000 50] Android_Mid, [00000588ABB0C940][00000588ABE3C800 50] Android_High, [00000588ABB032C0][00000588ABE22800 50] Android_Default, [00000588ABB0C080][00000588ABE50000 50] Android_Adreno4xx, [00000588ABB0CCC0][00000588ABE55000 50] Android_Adreno5xx_Low, [00000588ABB08DC0][00000588ABE57800 50] Android_Adreno5xx, [00000588ABB06E40][00000588ABE5A000 50] Android_Adreno6xx, [00000588ABB07E00][00000588ABE5C800 50] Android_Adreno6xx_Vulkan, [00000588ABB0B980][00000588ABE32800 50] Android_Adreno7xx, [00000588ABB0AD40][00000588ABE60000 50] Android_Adreno7xx_Vulkan, [00000588ABB0D900][00000588ABE65000 50] Android_Mali_T6xx, [00000588ABB07C40][00000588ABE67800 50] Android_Mali_T7xx, [00000588ABB0A2C0][00000588ABE6A000 50] Android_Mali_T8xx, [00000588ABB03640][00000588ABE6C800 50] Android_Mali_G71, [00000588ABB0D200][00000588ABE52800 50] Android_Mali_G72, [00000588ABB0D3C0][00000588ABE70000 50] Android_Mali_G72_Vulkan, [00000588ABB0D740][00000588ABE75000 50] Android_Mali_G76, [00000588ABB0B440][00000588ABE77800 50] Android_Mali_G76_Vulkan, [00000588ABB09BC0][00000588ABE7A000 50] Android_Mali_G77, [00000588ABB0DC80][00000588ABE7C800 50] Android_Mali_G77_Vulkan, [00000588ABB0BD00][00000588ABE62800 50] Android_Mali_G78, [00000588ABB0E000][00000588ABE80000 50] Android_Mali_G78_Vulkan, [00000588ABB0B280][00000588ABE85000 50] Android_Mali_G710, [00000588ABB0DE40][00000588ABE87800 50] Android_Mali_G710_Vulkan, [00000588ABB0D580][00000588ABE8A000 50] Android_Xclipse_920, [00000588ABB0E700][00000588ABE8C800 50] Android_Xclipse_920_Vulkan, [00000588ABB0A800][00000588ABE72800 50] Android_Vulkan_SM5, [00000588ABB0EC40][00000588ABE90000 50] Android_PowerVR_G6xxx, [00000588ABB0E540][00000588ABE95000 50] Android_PowerVR_GT7xxx, [00000588ABB0EFC0][00000588ABE97800 50] Android_PowerVR_GE8xxx, [00000588ABB08500][00000588ABE9A000 50] Android_PowerVR_GM9xxx, [00000588ABB0EE00][00000588ABE9C800 50] Android_PowerVR_GM9xxx_Vulkan, [00000588ABB08C00][00000588ABE82800 50] Android_TegraK1, [00000588ABB0F6C0][00000588ABEA0000 50] Android_Unknown_Vulkan, [00000588ABB03F00][00000588ABEA5000 50] Oculus_Quest, [00000588ABB0C240][00000588ABEA7800 50] Oculus_Quest2, [00000588ABB0F180][00000588ABEAA000 50] HoloLens, 
+[2022.11.29-15.37.11:335][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="Platform_InvalidHostPrerequisites", Error="Android Studio is not installed correctly.|Android SDK directory is not set correctly.")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: HoloLens: (Status=Valid, Installed=10.0.19041.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: TVOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2022.11.29-15.37.11:338][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.19041.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2022.11.29-15.37.11:355][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.11.29-15.37.11:534][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.29-15.37.11:534][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.29-15.37.11:534][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.29-15.37.11:534][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.29-15.37.11:534][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.29-15.37.11:549][  0]LogNetVersion: Ortons_Cube 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2819471654)
+[2022.11.29-15.37.11:668][  0]LogSlate: Border
+[2022.11.29-15.37.11:668][  0]LogSlate: BreadcrumbButton
+[2022.11.29-15.37.11:668][  0]LogSlate: Default
+[2022.11.29-15.37.11:668][  0]LogSlate: Icons.Save
+[2022.11.29-15.37.11:668][  0]LogSlate: Icons.Toolbar.Settings
+[2022.11.29-15.37.11:668][  0]LogSlate: ListView
+[2022.11.29-15.37.11:668][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.11.29-15.37.11:668][  0]LogSlate: SoftwareCursor_Grab
+[2022.11.29-15.37.11:668][  0]LogSlate: TableView.DarkRow
+[2022.11.29-15.37.11:668][  0]LogSlate: TableView.Row
+[2022.11.29-15.37.11:668][  0]LogSlate: TreeView
+[2022.11.29-15.37.11:829][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.11:857][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.11:857][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.11:969][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.11.29-15.37.11:969][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2022.11.29-15.37.11:969][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.29-15.37.12:259][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: D823E5684DD8A4604568749877196974 | Instance: C05D5BB1405FD9D4D9352FAEA877E396 (DESKTOP-8MK4H34-5840).
+[2022.11.29-15.37.12:289][  0]LogPython: Using Python 3.9.7
+[2022.11.29-15.37.13:044][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.29-15.37.13:047][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.29-15.37.13:116][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.13:146][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.13:153][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.13:282][  0]LogUProjectInfo: Found projects:
+[2022.11.29-15.37.13:349][  0]LogOpenImageDenoise: OIDN starting up
+[2022.11.29-15.37.13:397][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.29-15.37.13:413][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.29-15.37.13:413][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.29-15.37.13:486][  0]LogCollectionManager: Loaded 0 collections in 0.000835 seconds
+[2022.11.29-15.37.13:551][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Saved/Collections/' took 0.00s
+[2022.11.29-15.37.13:551][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/Developers/Yuval2/Collections/' took 0.00s
+[2022.11.29-15.37.13:551][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/Collections/' took 0.00s
+[2022.11.29-15.37.13:813][  0]LogEngine: Initializing Engine...
+[2022.11.29-15.37.13:828][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.11.29-15.37.13:829][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.11.29-15.37.14:075][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.29-15.37.14:076][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.37.14:085][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.37.14:116][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.29-15.37.14:117][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.11.29-15.37.14:138][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.11.29-15.37.14:139][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.11.29-15.37.14:139][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.11.29-15.37.14:139][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.11.29-15.37.14:139][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-15.37.14:139][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-15.37.14:139][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-15.37.14:140][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-15.37.14:140][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-15.37.14:140][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-15.37.14:145][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-15.37.14:175][  0]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Audio Controller - Chat)
+[2022.11.29-15.37.14:175][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-15.37.14:177][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-15.37.14:177][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-15.37.14:177][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.11.29-15.37.14:177][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.29-15.37.14:178][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.29-15.37.14:178][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.11.29-15.37.14:178][  0]LogInit: FAudioDevice initialized.
+[2022.11.29-15.37.14:179][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.11.29-15.37.14:179][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.29-15.37.14:179][  0]LogInit: Texture streaming: Enabled
+[2022.11.29-15.37.14:210][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.11.29-15.37.14:218][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.29-15.37.14:218][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9AD13728-47A7-9675-BE59-30AC0DD1943D}
+[2022.11.29-15.37.14:240][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.11.29-15.37.14:247][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.11.29-15.37.14:247][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: Ortons_CubeEditor Win64 Development
+[2022.11.29-15.37.18:826][  0]LogLiveCoding: Display: First instance in process group "UE_Ortons_Cube_0xe6c975b2", spawning console
+[2022.11.29-15.37.18:826][  0]LogLiveCoding: Display: Waiting for server
+[2022.11.29-15.37.18:826][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.11.29-15.37.18:848][  0]LogInit: Transaction tracking system initialized
+[2022.11.29-15.37.18:930][  0]BlueprintLog: New page: Editor Load
+[2022.11.29-15.37.19:128][  0]LocalizationService: Localization service is disabled
+[2022.11.29-15.37.19:178][  0]TimingProfiler: Initialize
+[2022.11.29-15.37.19:178][  0]TimingProfiler: OnSessionChanged
+[2022.11.29-15.37.19:178][  0]LoadingProfiler: Initialize
+[2022.11.29-15.37.19:178][  0]LoadingProfiler: OnSessionChanged
+[2022.11.29-15.37.19:178][  0]NetworkingProfiler: Initialize
+[2022.11.29-15.37.19:178][  0]NetworkingProfiler: OnSessionChanged
+[2022.11.29-15.37.19:178][  0]MemoryProfiler: Initialize
+[2022.11.29-15.37.19:178][  0]MemoryProfiler: OnSessionChanged
+[2022.11.29-15.37.19:789][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/' took 0.01s
+[2022.11.29-15.37.19:789][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.11.29-15.37.19:863][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.11.29-15.37.19:864][  0]SourceControl: Source control is disabled
+[2022.11.29-15.37.19:864][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.383
+[2022.11.29-15.37.19:864][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/FirstPerson/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.29-15.37.19:865][  0]LightingResults: New page: Lighting Build
+[2022.11.29-15.37.19:872][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.37.19:872][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.37.19:872][  0]MapCheck: New page: Map Check
+[2022.11.29-15.37.19:872][  0]LightingResults: New page: Lighting Build
+[2022.11.29-15.37.19:878][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-15.37.19:881][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.11.29-15.37.20:047][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2022.11.29-15.37.20:047][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.37.20:047][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.37.20:047][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2022.11.29-15.37.20:051][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.29-15.37.20:060][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.11.29-15.37.20:061][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.29-15.37.20:061][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
+[2022.11.29-15.37.20:061][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.196
+[2022.11.29-15.37.20:072][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.591
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: ================================================
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.11.29-15.37.20:072][  0]LogShaderCompilers: Display: ================================================
+[2022.11.29-15.37.20:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.37.20:190][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.37.20:196][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.37.20:201][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.37.20:257][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:257][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:258][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:258][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:258][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:258][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:259][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:259][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:259][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:260][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:260][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:260][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:261][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:261][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:261][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:261][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:262][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:262][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:262][  0]LogPakFile: Display: Mounted Pak file 'D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.11.29-15.37.20:262][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.29-15.37.20:262][  0]LogFeaturePack: Error: Error in Feature pack D:/Programs/unreal engine/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.11.29-15.37.20:360][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.29-15.37.20:363][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.29-15.37.20:364][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.29-15.37.20:383][  0]LogViewport: Scene viewport resized to 1482x902, mode Windowed.
+[2022.11.29-15.37.20:970][  0]LogStall: Startup...
+[2022.11.29-15.37.20:971][  0]LogStall: Startup complete.
+[2022.11.29-15.37.20:991][  0]LogLoad: (Engine Initialization) Total time: 13.51 seconds
+[2022.11.29-15.37.20:991][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.29-15.37.21:056][  0]LogAssetRegistry: Asset discovery search completed in 10.1031 seconds
+[2022.11.29-15.37.21:064][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.11.29-15.37.21:088][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.29-15.37.21:114][  0]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.29-15.37.30:786][ 30]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.29-15.37.30:794][ 30]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.29-15.37.37:741][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.11.29-15.37.38:150][763]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/cubeLevel.cubeLevel
+[2022.11.29-15.37.38:150][763]Cmd: MAP LOAD FILE="../../../../../../Documents/orton's cube/game/test - Copy (2)/Ortons_Cube/Content/FirstPerson/Maps/cubeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.29-15.37.38:150][763]LightingResults: New page: Lighting Build
+[2022.11.29-15.37.38:150][763]LoadErrors: New page: Loading map: cubeLevel.umap
+[2022.11.29-15.37.38:151][763]LogWorld: UWorld::CleanupWorld for MainMenuLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.37.38:151][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.37.38:151][763]MapCheck: New page: Map Check
+[2022.11.29-15.37.38:151][763]LightingResults: New page: Lighting Build
+[2022.11.29-15.37.38:160][763]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-15.37.38:164][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.11.29-15.37.38:178][763]LogWorld: UWorld::CleanupWorld for cubeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.37.38:180][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.37.38:193][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.11.29-15.37.38:200][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.11.29-15.37.38:247][763]LogAudio: Display: Audio Device (ID: 1) registered with world 'cubeLevel'.
+[2022.11.29-15.37.38:247][763]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.37.38:247][763]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.37.38:247][763]LogAIModule: Creating AISystem for world cubeLevel
+[2022.11.29-15.37.38:491][763]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.29-15.37.38:508][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.11.29-15.37.38:514][763]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.29-15.37.38:514][763]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.149ms to complete.
+[2022.11.29-15.37.38:515][763]LogFileHelpers: Loading map 'cubeLevel' took 0.364
+[2022.11.29-15.37.55:753][498]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FirstPerson/Blueprints/walls/wallsMat.wallsMat
+[2022.11.29-15.37.55:755][498]LogMaterial: Display: Missing cached shadermap for Preview:wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: A5844463DF5A59BAD68B4C6BB147DB643232CB6D), compiling. 
+[2022.11.29-15.37.55:835][498]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.37.55:867][498]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2022.11.29-15.37.55:968][498]LogMaterial: Display: Missing cached shadermap for Preview:wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: 4443FF42C81317CAABC48D173077A3F07429893C), compiling. 
+[2022.11.29-15.37.55:971][498]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D58AC80FFDA7B508AB2CF53CBC329AC3044BCD2B), compiling. 
+[2022.11.29-15.37.55:988][498]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.29-15.37.55:988][498]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.29-15.37.55:988][498]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.29-15.37.55:988][498]MaterialEditorStats: Shader Count: 0
+[2022.11.29-15.37.55:995][498]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.29-15.37.55:997][498]LogViewport: Scene viewport resized to 273x302, mode Windowed.
+[2022.11.29-15.37.57:276][585]MaterialEditorStats: Texture samplers: 3/16
+[2022.11.29-15.37.57:276][585]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.29-15.37.57:276][585]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.29-15.37.57:276][585]MaterialEditorStats: Shader Count: 3
+[2022.11.29-15.37.59:564][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-15.37.59:565][753]PIE: New page: PIE session: cubeLevel (29 Nov 2022, 19:37:59)
+[2022.11.29-15.37.59:567][753]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.29-15.37.59:567][753]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.29-15.37.59:567][753]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.37.59:612][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044208s)
+[2022.11.29-15.37.59:612][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/cubeLevel.cubeLevel to /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel (0.044310s)
+[2022.11.29-15.37.59:612][753]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.37.59:612][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.37.59:612][753]LogAIModule: Creating AISystem for world cubeLevel
+[2022.11.29-15.37.59:612][753]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2022.11.29-15.37.59:620][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.11.29-15.37.59:620][753]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-15.37.59:620][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-15.37.59:620][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-15.37.59:621][753]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-15.37.59:621][753]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-15.37.59:621][753]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-15.37.59:622][753]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-15.37.59:638][753]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Audio Controller - Chat)
+[2022.11.29-15.37.59:638][753]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-15.37.59:638][753]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-15.37.59:638][753]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-15.37.59:638][753]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.29-15.37.59:638][753]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.11.29-15.37.59:640][753]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.29-15.37.59:640][753]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.29-15.37.59:640][753]LogInit: FAudioDevice initialized.
+[2022.11.29-15.37.59:640][753]LogAudio: Display: Audio Device (ID: 2) registered with world 'cubeLevel'.
+[2022.11.29-15.37.59:648][753]LogLoad: Game class is 'cubeGm_C'
+[2022.11.29-15.37.59:669][753]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel up for play (max tick rate 0) at 2022.11.29-17.37.59
+[2022.11.29-15.37.59:669][753]LogWorld: Bringing up level for play took: 0.020956
+[2022.11.29-15.37.59:671][753]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.11.29-15.37.59:686][753]PIE: Server logged in
+[2022.11.29-15.37.59:686][753]PIE: Play in editor total start time 0.122 seconds.
+[2022.11.29-15.38.01:434][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.01:434][914]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.38.01:435][914]LogWorld: UWorld::CleanupWorld for cubeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.38.01:437][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.01:447][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-15.38.01:450][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.01:459][914]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-15.38.01:460][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.29-15.38.01:461][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.29-15.38.01:464][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.01:470][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.29-15.38.01:515][915]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.11.29-15.38.17:629][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-15.38.17:629][ 37]PIE: New page: PIE session: cubeLevel (29 Nov 2022, 19:38:17)
+[2022.11.29-15.38.17:630][ 37]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.38.17:674][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044286s)
+[2022.11.29-15.38.17:674][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/cubeLevel.cubeLevel to /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel (0.044357s)
+[2022.11.29-15.38.17:674][ 37]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.38.17:674][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.38.17:674][ 37]LogAIModule: Creating AISystem for world cubeLevel
+[2022.11.29-15.38.17:675][ 37]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2022.11.29-15.38.17:682][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.11.29-15.38.17:682][ 37]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-15.38.17:682][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-15.38.17:682][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-15.38.17:683][ 37]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-15.38.17:683][ 37]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-15.38.17:683][ 37]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-15.38.17:684][ 37]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-15.38.17:700][ 37]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Audio Controller - Chat)
+[2022.11.29-15.38.17:700][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-15.38.17:700][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-15.38.17:700][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-15.38.17:701][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.11.29-15.38.17:701][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.11.29-15.38.17:702][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.11.29-15.38.17:702][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.11.29-15.38.17:702][ 37]LogInit: FAudioDevice initialized.
+[2022.11.29-15.38.17:702][ 37]LogAudio: Display: Audio Device (ID: 3) registered with world 'cubeLevel'.
+[2022.11.29-15.38.17:712][ 37]LogLoad: Game class is 'cubeGm_C'
+[2022.11.29-15.38.17:733][ 37]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel up for play (max tick rate 0) at 2022.11.29-17.38.17
+[2022.11.29-15.38.17:734][ 37]LogWorld: Bringing up level for play took: 0.021746
+[2022.11.29-15.38.17:735][ 37]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.11.29-15.38.17:739][ 37]PIE: Server logged in
+[2022.11.29-15.38.17:740][ 37]PIE: Play in editor total start time 0.11 seconds.
+[2022.11.29-15.38.18:854][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.18:854][139]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.38.18:854][139]LogWorld: UWorld::CleanupWorld for cubeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.38.18:856][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.18:865][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-15.38.18:867][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.18:876][139]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-15.38.18:876][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.29-15.38.18:878][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.29-15.38.18:881][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.18:886][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.11.29-15.38.18:937][140]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.11.29-15.38.33:924][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.29-15.38.33:924][233]PIE: New page: PIE session: cubeLevel (29 Nov 2022, 19:38:33)
+[2022.11.29-15.38.33:953][233]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.38.33:998][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044354s)
+[2022.11.29-15.38.33:998][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/cubeLevel.cubeLevel to /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel (0.044443s)
+[2022.11.29-15.38.33:998][233]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.29-15.38.33:998][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.29-15.38.33:998][233]LogAIModule: Creating AISystem for world cubeLevel
+[2022.11.29-15.38.33:998][233]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2022.11.29-15.38.34:005][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.11.29-15.38.34:006][233]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.29-15.38.34:006][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.29-15.38.34:006][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.29-15.38.34:007][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.29-15.38.34:007][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.29-15.38.34:007][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.29-15.38.34:008][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.29-15.38.34:024][233]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Razer Audio Controller - Chat)
+[2022.11.29-15.38.34:025][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.29-15.38.34:025][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.29-15.38.34:025][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.29-15.38.34:025][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.11.29-15.38.34:025][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.11.29-15.38.34:026][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.11.29-15.38.34:026][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.11.29-15.38.34:026][233]LogInit: FAudioDevice initialized.
+[2022.11.29-15.38.34:026][233]LogAudio: Display: Audio Device (ID: 4) registered with world 'cubeLevel'.
+[2022.11.29-15.38.34:036][233]LogLoad: Game class is 'cubeGm_C'
+[2022.11.29-15.38.34:058][233]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel.cubeLevel up for play (max tick rate 0) at 2022.11.29-17.38.34
+[2022.11.29-15.38.34:058][233]LogWorld: Bringing up level for play took: 0.021932
+[2022.11.29-15.38.34:060][233]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2022.11.29-15.38.34:064][233]PIE: Server logged in
+[2022.11.29-15.38.34:064][233]PIE: Play in editor total start time 0.14 seconds.
+[2022.11.29-15.38.37:894][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.37:894][586]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_cubeLevel
+[2022.11.29-15.38.37:894][586]LogWorld: UWorld::CleanupWorld for cubeLevel, bSessionEnded=true, bCleanupResources=true
+[2022.11.29-15.38.37:896][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.37:909][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.29-15.38.37:911][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.29-15.38.37:920][586]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.29-15.38.37:920][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.29-15.38.37:921][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.29-15.38.37:924][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.29-15.38.37:930][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.11.29-15.38.37:979][587]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.11.29-15.38.43:226][933]LogMaterial: Display: Missing cached shadermap for Preview:wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: C912C7F5706A0DF3C892BC22B2A25D66BD4AD20E), compiling. 
+[2022.11.29-15.38.43:230][933]LogMaterial: Display: Missing cached shadermap for Preview:wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: C9BD3D7C0ED96D1E5B1D4FF4D586E794BB65333D), compiling. 
+[2022.11.29-15.38.43:233][933]MaterialEditorStats: Texture samplers: 0/16
+[2022.11.29-15.38.43:233][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.29-15.38.43:233][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.29-15.38.43:233][933]MaterialEditorStats: Shader Count: 0
+[2022.11.29-15.38.44:306][  0]MaterialEditorStats: Texture samplers: 3/16
+[2022.11.29-15.38.44:306][  0]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.11.29-15.38.44:306][  0]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.11.29-15.38.44:306][  0]MaterialEditorStats: Shader Count: 3
+[2022.11.29-15.38.44:842][ 35]LogMaterialEditor: Saving and Compiling material wallsMat
+[2022.11.29-15.38.45:241][ 35]LogMaterial: Display: Missing cached shadermap for Preview:wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: 289D6C200FBACE636D2DD105F9DB4F64E5FDC106), compiling. 
+[2022.11.29-15.38.45:255][ 35]LogMaterial: Display: Missing cached shadermap for wallsMat in PCD3D_SM5, Default, SM5 (DDC key hash: 499F499E43D25E938F19EEFB313085C7C208DC9F), compiling. 
+[2022.11.29-15.38.45:272][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.11.29-15.38.46:212][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms

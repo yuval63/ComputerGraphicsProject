@@ -30,7 +30,17 @@ void AGreenPlatform::OnInteraction() {
 
 	player->setJumpVelocity(1400.f);
 	player->Jump();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("join us"));
+
+}
 
 
+void AGreenPlatform::OnStopInteraction() {
+
+	player->setJumpVelocity(700.f);
+
+}
+void AGreenPlatform::checkFunction() {
+	player->setJumpVelocity(700.f);
 
 }

@@ -2,7 +2,10 @@
 
 #pragma once
 
+
+
 #include "Orton.h"
+
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -18,7 +21,7 @@ public:
 	AColoredPlatform();
 
 	virtual void OnInteraction();
-
+	virtual void OnStopInteraction();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,4 +33,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	
 };

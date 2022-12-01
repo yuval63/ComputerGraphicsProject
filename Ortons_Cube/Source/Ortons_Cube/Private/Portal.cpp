@@ -29,11 +29,11 @@ void APortal::Tick(float DeltaTime)
 	player = Cast<AOrton>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
 	if (unlocked == false) {
-		if (portalKind == -1) {
+		if (portalID != -1) {
 			unlocked = true;
 		}
 		else {
-			if (player->getEndingUnlocked(portalKind)) {
+			if (player->getEndingUnlocked(portalID)) {
 				unlocked = true;
 			}
 		}
@@ -47,6 +47,57 @@ void APortal::Tick(float DeltaTime)
 
 		player->setInteractWarning(10);
 
+		float xDist = GetActorLocation().X - player->GetActorLocation().X;
+		if (xDist < 0.0f) {
+			xDist *= -1.0f;
+		}
+		float yDist = GetActorLocation().Y - player->GetActorLocation().Y;
+		if (yDist < 0.0f) {
+			yDist *= -1.0f;
+		}
+
+		if (xDist > yDist) {
+			if ( player->GetActorLocation().X - GetActorLocation().X > 0.0f) {
+				player->setCheckPoint(FVector(GetActorLocation().X + 300.0f, GetActorLocation().Y, GetActorLocation().Z));
+			}
+			else {
+				player->setCheckPoint(FVector(GetActorLocation().X - 300.0f, GetActorLocation().Y, GetActorLocation().Z));
+
+			}
+		}
+		else {
+			if (xDist < yDist) {
+				if (player->GetActorLocation().Y - GetActorLocation().Y > 0.0f) {
+					player->setCheckPoint(FVector(GetActorLocation().X , GetActorLocation().Y + 300.0f, GetActorLocation().Z));
+				}
+				else {
+					player->setCheckPoint(FVector(GetActorLocation().X , GetActorLocation().Y - 300.0f, GetActorLocation().Z));
+
+				}
+			}
+			else {
+				if (player->GetActorLocation().X - GetActorLocation().X > 0.0f) {
+					if (player->GetActorLocation().Y - GetActorLocation().Y > 0.0f) {
+						player->setCheckPoint(FVector(GetActorLocation().X + 300.0f, GetActorLocation().Y + 300.0f, GetActorLocation().Z));
+					}
+					else {
+						player->setCheckPoint(FVector(GetActorLocation().X + 300.0f, GetActorLocation().Y - 300.0f, GetActorLocation().Z));
+
+					}
+				}
+				else {
+					if (player->GetActorLocation().Y - GetActorLocation().Y > 0.0f) {
+						player->setCheckPoint(FVector(GetActorLocation().X - 300.0f, GetActorLocation().Y + 300.0f, GetActorLocation().Z));
+					}
+					else {
+						player->setCheckPoint(FVector(GetActorLocation().X - 300.0f, GetActorLocation().Y - 300.0f, GetActorLocation().Z));
+
+					}
+				}
+			}
+		}
+
+
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("interact warning is "));
 
 		if (unlocked) {
@@ -56,10 +107,12 @@ void APortal::Tick(float DeltaTime)
 				player->setCheckPoint(to);
 				player->setCurrentRoomID(toRoomID);
 				player->setSpeed(FVector(0.f,0.f,0.f));
+				player->setVsitedPortal(portalID, true);
 
-				if (GEngine) {
-					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("LOCATION: %f,%f,%f"), to.X, to.Y, to.Z));
-				}
+
+			//	if (GEngine) {
+			//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("LOCATION: %f,%f,%f"), to.X, to.Y, to.Z));
+				//}
 			}
 		}
 	}

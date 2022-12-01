@@ -2,6 +2,7 @@
 
 #pragma once
 
+
 #include "ColoredPlatform.h"
 
 #include "CoreMinimal.h"
@@ -30,4 +31,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	virtual void OnInteraction() override;
 
+	UFUNCTION(BlueprintCallable)
+		void checkFunction();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void OnStopInteraction() override;
+	
 };
