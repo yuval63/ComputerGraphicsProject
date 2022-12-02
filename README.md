@@ -59,3 +59,13 @@ to objects fox example metalic texture to coins or glowing for certan objects)
 ![image](https://user-images.githubusercontent.com/92427271/203572453-b2d64bf1-ef0c-45ba-9c64-a7988590ebed.png)
 
 
+### Week 5
+### ------------------
+- worked on the 7 special platforms - 2 hours (bouncy,moving,teleporting,flipping etc...)
+- worked on 5 levels (finished 4)  - ~2 hours for each level up to 10 hours in total (built levels in a big room) 
+- finished other gimmics - 1 hour (spawners,signs)
+-  fixed (or at least tried to fix) bugs- 1 hour (portals ids not saving between launches for some reason, spawners not working between launches etc...)
+
+
+![image](https://user-images.githubusercontent.com/92427271/205191696-0d4648cd-188c-4558-bff4-703386c26f97.png)
+
