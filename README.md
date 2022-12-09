@@ -69,3 +69,12 @@ to objects fox example metalic texture to coins or glowing for certan objects)
 
 ![image](https://user-images.githubusercontent.com/92427271/205191696-0d4648cd-188c-4558-bff4-703386c26f97.png)
 
+
+### Week 6
+### ------------------
+- Worked on 4 new levels - ~2 hours for each level up to 10 hours in total (built levels in a big room) 
+- Made the portals more automatic using code - 1 hour (instead of giving each portal ids manually, i made a code that give them the right ids depending on their position)
+- solved some bugs - 1 hour (changed a bit how the orange platform drops and flies back, how the blue platform pushes the player etc...)
+
+![image](https://user-images.githubusercontent.com/92427271/206739464-cf4a111a-fa10-4323-8670-8dda51b5a519.png)
+
