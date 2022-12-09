@@ -16,7 +16,497 @@ APortal::APortal()
 void APortal::BeginPlay()
 {
 	Super::BeginPlay();
+	// 7 x values 45000.0
+	// 7 y values 0.0
+	// 7 z values 6380.0
 
+	player = Cast<AOrton>(GetWorld()->GetFirstPlayerController()->GetPawn());
+
+	/***************************************************/
+	/**                        W<->B                 **/
+	/***************************************************/
+	if ( FVector::Dist(GetActorLocation(),FVector(0.0f,0.0f,40920.0f)) < 500) {		// W->B
+		portalID = 0;
+		fromRoomID = 0;
+		toRoomID = 1;
+		to = FVector(0.0f, 300.0f, 6360.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 6360.0f)) < 500) {     // B->W
+		portalID = 0;            
+		fromRoomID = 1;
+		toRoomID = 0;
+		to = FVector(0.0f, 300.0f, 40920.0f);
+
+	}
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -9000.0f, 1310.0f)) < 500) {		// W->G
+		portalID = 1;
+		fromRoomID = 0;
+		toRoomID = 10;
+		to = FVector(0.0f, -36300.0f, 1310.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -36000.0f, 1310.0f)) < 500) {		//G->W
+		portalID = 1;
+		fromRoomID = 10;
+		toRoomID = 0;
+		to = FVector(0.0f, -8700.0f, 1310.0f);
+
+	}
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, -4080.0f)) < 500) {		// W->O 
+		portalID = 2;
+		fromRoomID = 0;
+		toRoomID = 16;
+		to = FVector(0.0f, 300.0f, -38640.0f);
+
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, -38640.0f)) < 500) {		//O->W
+		portalID = 2;
+		fromRoomID = 16;
+		toRoomID = 0;
+		to = FVector(0.0f, 300.0f, -4080.0f);
+
+	}
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(-9000.0f, 0.0f, 1310.0f)) < 500) {		// W->P
+		portalID = 3;
+		fromRoomID = 0;
+		toRoomID = 22;
+		to = FVector(-36300.0f, 0.0f, 1310.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(-36000.0f, 0.0f, 1310.0f)) < 500) {		//P->W
+		portalID = 3;
+		fromRoomID = 22;
+		toRoomID = 0;
+		to = FVector(-9000.0f, 0.0f, 1310.0f);
+
+	}
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 9000.0f, 1310.0f)) < 500) {		// W->R 
+		portalID = 4;
+		fromRoomID = 0;
+		toRoomID = 24;
+		to = FVector(0.0f, 36300.0f, 1310.0f);
+
+	}
+	if ( FVector::Dist(GetActorLocation(), FVector(0.0f, 36000.0f, 1310.0f)) < 500) {		// R->W
+		portalID = 4;
+		fromRoomID = 24;
+		toRoomID = 0;
+		to = FVector(0.0f, 8700.0f, 1310.0f);
+
+	}
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(9000.0f, 0.0f, 1310.0f)) < 500) {		// W->Y 
+		portalID = 5;
+		fromRoomID = 0;
+		toRoomID = 26;
+		to = FVector(36300.0f, 0.0f, 1310.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(36000.0f, 0.0f, 1310.0f)) < 500) {		//Y->W
+		portalID = 5;
+		fromRoomID = 26;
+		toRoomID = 0;
+		to = FVector(8700.0f, 0.0f, 1310.0f);
+
+	}
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -9000.0f, 46310.0f)) < 500) {		// B->BG 
+		portalID = 6;
+		fromRoomID = 1;
+		toRoomID = 2;
+		to = FVector(0.0f, -36300.0f, 46310.0f);			
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -36000.0f, 46310.0f)) < 500) {		//  BG->B    
+		portalID = 6;
+		fromRoomID = 2;
+		toRoomID = 1;
+		to = FVector(0.0f, -8700.0f, 46310.0f);
+	}
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(-9000.0f, 0.0f, 46310.0f)) < 500 ) {		// B->BP 
+		portalID = 7;
+		fromRoomID = 1;
+		toRoomID = 5;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, 0.0f, 46310.0f)) < 500) {		// BP->B [needs to change the x]
+		portalID = 7;
+		fromRoomID = 5;
+		toRoomID = 1;
+		to = FVector(-8700.0f, 0.0f, 46310.0f);
+
+	}
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 9000.0f, 46310.0f)) < 500) {		// B->BR 
+		portalID = 8;
+		fromRoomID = 1;
+		toRoomID = 7;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 45000.0f, 46310.0f)) < 500) {		// BR->B      [needs to change the y]
+		portalID = 8;
+		fromRoomID = 7;
+		toRoomID = 1;
+		to = FVector(0.0f, 8700.0f, 46310.0f);
+
+	}
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(9000.0f, 0.0f, 46310.0f)) < 500 ) {		// B->BY || BY->B
+		portalID = 9;
+		fromRoomID = 1;
+		toRoomID = 9;
+	}
+	if ( FVector::Dist(GetActorLocation(), FVector(45000.0f, 0.0f, 46310.0f)) < 500) {		// BY->B  [needs to change the x]
+		portalID = 9;
+		fromRoomID = 9;
+		toRoomID = 1;
+		to = FVector(8700.0f, 0.0f, 46310.0f);
+	}
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -45000.0f, 6380.0f)) < 500) {		// G->BG 
+		portalID = 10;
+		fromRoomID = 10;
+		toRoomID = 2;
+		to = FVector(0.0f, -44700.0f, 40920.0f);
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -45000.0f, 40920.0f)) < 500) {		// BG->G   
+		portalID = 10;
+		fromRoomID = 10;
+		toRoomID = 2;
+		to = FVector(0.0f, -44700.0f, 6380.0f);
+	}
+
+
+
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -45000.0f, -4040.0f)) < 500) {		// G->GO 
+		portalID = 11;
+		fromRoomID = 10;
+		toRoomID = 11;
+		to = FVector(0.0f, -44700.0f, -38640.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -45000.0f, -38640.0f)) < 500) {		// GO->G     [needs to change the z]
+		portalID = 11;
+		fromRoomID = 11;
+		toRoomID = 10;
+		to = FVector(0.0f, -44700.0f, -4040.0f);
+
+	}
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(-9000.0f, -45000.0f, 1310.0f)) < 500) {		// G->GP 
+		portalID = 12;
+		fromRoomID = 10;
+		toRoomID = 14;
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, -45000.0f, 1310.0f)) < 500) {		// GP->G     [needs to change the x]
+		portalID = 12;
+		fromRoomID = 14;
+		toRoomID = 10;
+		to = FVector(-8700.0f, -45000.0f, 1310.0f);
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(9000.0f, -45000.0f, 1310.0f)) < 500) {		// G -> GY
+		portalID = 13;
+		fromRoomID = 10;
+		toRoomID = 15;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -45000.0f, 1310.0f)) < 500) {		// G -> GY      [needs to change the x]
+		portalID = 13;
+		fromRoomID = 15;
+		toRoomID = 10;
+		to = FVector(8700.0f, -45000.0f, 1310.0f);
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -9000.0f, -43690.0f)) < 500) {		// O->GO
+		portalID = 14;
+		fromRoomID = 16;
+		toRoomID = 11;
+		to = FVector(0.0f, -36300.0f, -43690.0f);
+
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, -36000.0f, -43690.0f)) < 500) {		// GO->O
+		portalID = 14;
+		fromRoomID = 11;
+		toRoomID = 16;
+		to = FVector(0.0f, -8700.0f, -43690.0f);
+	}
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// O->OP
+		portalID = 15;
+		fromRoomID = 16;
+		toRoomID = 17;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// OP->O
+		portalID = 15;
+		fromRoomID = 17;
+		toRoomID = 16;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// O->OR
+		portalID = 16;
+		fromRoomID = 16;
+		toRoomID = 19;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// OR->O
+		portalID = 16;
+		fromRoomID = 19;
+		toRoomID = 16;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// O->OY
+		portalID = 17;
+		fromRoomID = 16;
+		toRoomID = 21;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// OY->O
+		portalID = 17;
+		fromRoomID = 21;
+		toRoomID = 16;
+		to = FVector(0.0f, 0.0f, 0.0f);
+	}
+
+
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 18;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 19;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 20;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 21;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 22;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 23;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 24;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 25;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 26;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 27;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 28;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 29;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 30;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 31;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 32;
+	}
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 33;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 34;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 35;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 36;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 37;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 38;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 39;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 40;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 41;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 42;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 43;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 44;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 45;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 46;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 47;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 48;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 49;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 50;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 51;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+		portalID = 52;
+	}
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// RY->ORY || ORY->RY
+		portalID = 53;
+	}
 }
 
 // Called every frame

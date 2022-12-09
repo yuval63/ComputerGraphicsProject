@@ -116,18 +116,37 @@ public:
 	void forceJump(float jumpHeight);
 
 	void AddNewMovementInput(FVector newMovement);
+	FVector getVelocty();
+	FVector getLatestMovement();
 
+	/**
+	UFUNCTION(BlueprintCallable)
+	bool getSlide();
+
+	UFUNCTION(BlueprintCallable)
+	void setSlide(bool doesSlide);
+	
+	UFUNCTION(BlueprintCallable)
+	bool anotherGetterForSlide();
+	**/
 	//private:
 protected:
 
 
 	void giveEndingOne();
 
-
+	FVector latestMovement = FVector(0.f, 0.f, 0.0f);
 	FVector checkPoint = FVector(0.f, 0.f, 1130.0f);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+		bool test = false;
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 	bool shouldKill = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+		bool slides = false;
 
 	int coins = 0;
 	bool gems[7] = { false,false,false,false,false,false,false };
@@ -148,7 +167,7 @@ protected:
 		int interactDuration = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
-	int showInteractWarning = 0;
+		int showInteractWarning = 0;
 
 
 
@@ -156,7 +175,7 @@ protected:
 
 	APlayerController* apc;
 
-	UPROPERTY(EditAnywhere)
+	//UPROPERTY(EditAnywhere)
 	//	TSubclassOf<class UinteractWidget> playerHUDClass;
 
 	//UPROPERTY()

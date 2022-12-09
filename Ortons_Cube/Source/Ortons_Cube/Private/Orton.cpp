@@ -30,7 +30,6 @@ void AOrton::BeginPlay()
 	GetCharacterMovement()->MaxWalkSpeed = 1200.f;
 	GetCharacterMovement()->AirControl = 1.f;
  
-
 	FTimerHandle TimerHandle;
 	GetWorldTimerManager().SetTimer(TimerHandle,this,&AOrton::giveEndingOne, 1.f , false, 3600.0f); // 60 sec * 30 min = 1,800
 
@@ -64,7 +63,13 @@ void AOrton::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("movement: X:%f          Y:%f           Z:%f"), GetCharacterMovement()->Velocity.X, GetCharacterMovement()->Velocity.Y, GetCharacterMovement()->Velocity.Z));
 
+	
+	if (GetCharacterMovement()->Velocity.X != 0 || GetCharacterMovement()->Velocity.Y != 0) {
+		latestMovement = GetCharacterMovement()->Velocity;
+	}
+	
 
 	if (shouldKill) {
 		shouldKill = false;
@@ -152,9 +157,11 @@ void AOrton::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	//	if (GEngine)
 	//		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Some debug message!"));
-	PlayerInputComponent->BindAxis(TEXT("Move Forward / Backward"), this, &AOrton::MoveForward);
-	PlayerInputComponent->BindAxis(TEXT("Move Right / Left"), this, &AOrton::MoveRight);
 
+	if (!slides || (GetCharacterMovement()->Velocity.X == 0.0f && GetCharacterMovement()->Velocity.Y == 0.0f)) {
+		PlayerInputComponent->BindAxis(TEXT("Move Forward / Backward"), this, &AOrton::MoveForward);
+		PlayerInputComponent->BindAxis(TEXT("Move Right / Left"), this, &AOrton::MoveRight);
+	}
 		PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &AOrton::Jump);
 	
 	PlayerInputComponent->BindAction(TEXT("Interact"), IE_Pressed, this, &AOrton::Interact);
@@ -176,20 +183,28 @@ void AOrton::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 
 void AOrton::MoveForward(float Value) {
-	AddMovementInput(GetActorForwardVector() * Value);
-
+	if (!slides || (GetCharacterMovement()->Velocity.X == 0.0f && GetCharacterMovement()->Velocity.Y == 0.0f)) {
+		AddMovementInput(GetActorForwardVector() * Value);
+	}
 	//static ConstructorHelpers::FObjectFinder<UAnimSequence> anim(TEXT("AnimSequence'/Game/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start'"));
 	//Anim = anim.Object;
 }
 
 
 void AOrton::MoveRight(float Value) {
-	AddMovementInput(GetActorRightVector() * Value);
+	if (!slides || (GetCharacterMovement()->Velocity.X == 0.0f && GetCharacterMovement()->Velocity.Y == 0.0f)) {
+		AddMovementInput(GetActorRightVector() * Value);
+	}
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("whyyyyyyy")));
 
 }
 
 void AOrton::AddNewMovementInput(FVector newMovement) {
 	AddMovementInput(newMovement);
+}
+
+FVector AOrton::getVelocty() {
+	return GetCharacterMovement()->Velocity;
 }
 
 
@@ -452,11 +467,27 @@ void AOrton::forceJump(float jumpHeight) {
 }
 
 
+FVector AOrton::getLatestMovement() {
+	return latestMovement;
+}
 /**
 void AOrton::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 {
 	UE_LOG(LogTemp, Warning, TEXT("Activated"));
 
+}
+**/
+
+/**
+bool AOrton::getSlide() {
+	return slides;
+}
+void AOrton::setSlide(bool doesSlide) {
+	slides = doesSlide;
+}
+// For no real reason the other one doesn't work so I'm making a second that does the same...
+bool AOrton::anotherGetterForSlide() {
+	return slides;
 }
 **/
