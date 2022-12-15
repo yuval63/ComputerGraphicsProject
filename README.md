@@ -78,3 +78,15 @@ to objects fox example metalic texture to coins or glowing for certan objects)
 
 ![image](https://user-images.githubusercontent.com/92427271/206739464-cf4a111a-fa10-4323-8670-8dda51b5a519.png)
 
+
+### Week 7
+### ------------------
+- Worked on 4 new levels, 2-3 hours for each level (8-12 hours in total).
+- Some bug fixes and improvements to existing mechanics (for example allowing the red platforms to spin in multiple directions & increased the amount of portals
+that work by the code itself) - 1-2 hours
+
+![image](https://user-images.githubusercontent.com/92427271/207940885-b9729c6b-38e6-4d95-ba46-3dc33223ffa0.png)
+
+
+
+
