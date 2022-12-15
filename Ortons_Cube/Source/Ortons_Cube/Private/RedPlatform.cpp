@@ -19,6 +19,9 @@ void ARedPlatform::BeginPlay()
 	Super::BeginPlay();
 	SetActorRotation(FRotator(0.0f, 0.0f, 0.0f));
 	originalRotation = GetActorRotation();
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("rotationnnn %f , %f, %f"), GetActorRotation().Roll, GetActorRotation().Yaw, GetActorRotation().Pitch));
+
+
 	startDelay *= 60;
 }
 
@@ -50,7 +53,17 @@ void ARedPlatform::Tick(float DeltaTime)
 				//stage = 1; // warming up
 				//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, TEXT("Worming up"));
 				if (difference != 0.0f) {
-					SetActorRotation(FRotator(originalRotation.Pitch+ 180.0f * ((count - min) / difference), originalRotation.Yaw, originalRotation.Roll));
+					switch (mode) {
+					case 0:
+						SetActorRotation(FRotator(originalRotation.Pitch + 180.0f * ((count - min) / difference), originalRotation.Yaw, originalRotation.Roll));
+						break;
+					case 1:
+						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f * ((count - min) / difference), originalRotation.Roll));
+						break;
+					case 2:
+						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f * ((count - min) / difference)));
+						break;
+					}
 				}
 			}
 			else {
@@ -60,7 +73,17 @@ void ARedPlatform::Tick(float DeltaTime)
 				if (count >= min && count < max) {
 					//stage = 2; // hot (deadly...)
 					//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("HOT"));
-					SetActorRotation(FRotator(originalRotation.Pitch + 180.0f, originalRotation.Yaw, originalRotation.Roll));
+					switch (mode) {
+					case 0:
+						SetActorRotation(FRotator(originalRotation.Pitch + 180.0f, originalRotation.Yaw, originalRotation.Roll));
+						break;
+					case 1:
+						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f, originalRotation.Roll));
+						break;
+					case 2:
+						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f));
+						break;
+					}
 
 				}
 				else {
@@ -71,7 +94,17 @@ void ARedPlatform::Tick(float DeltaTime)
 						//	stage = 3; // cooling down
 						//	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("Cooling Down"));
 						if (difference != 0.0f) {
-							SetActorRotation(FRotator(originalRotation.Pitch+180.f + (180.0f * ((count - min) / difference)), originalRotation.Yaw, originalRotation.Roll));
+							switch (mode) {
+							case 0:
+								SetActorRotation(FRotator(originalRotation.Pitch + 180.f + (180.0f * ((count - min) / difference)), originalRotation.Yaw, originalRotation.Roll));
+								break;
+							case 1:
+								SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.f + (180.0f * ((count - min) / difference)), originalRotation.Roll));
+								break;
+							case 2:
+								SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.f + (180.0f * ((count - min) / difference))));
+								break;
+							}
 						}
 
 					}

@@ -32,6 +32,8 @@ public:
 
 	float count = 0; // a loop that changes the stage of the block
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+	int mode = 0; // roll, Yaw or pitch.
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 		float heatSpeed = 7.5f;

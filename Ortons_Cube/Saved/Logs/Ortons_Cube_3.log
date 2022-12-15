@@ -4066,3 +4066,18 @@ An asset already exists at the import location: /Game/FirstPerson/Blueprints/col
 [2022.12.09-16.36.57:323][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.12.09-16.36.57:379][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
 [2022.12.09-16.36.57:451][944]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2022.12.09-16.41.55:034][876]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.395 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-17.41.54:749][670]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.366 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-18.41.54:871][465]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.274 and deleted 42 file(s) with total size 0 MiB.
+[2022.12.09-19.41.54:670][259]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.267 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-19.47.07:417][191]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2022.12.09-19.47.07:417][191]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21852
+[2022.12.09-19.47.07:754][191]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d64a1a65-7a11-487d-94ff-0f5e1eefd227}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=19.11
+[2022.12.09-19.47.07:754][191]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.12.09-19.47.07:755][192]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.12.09-20.41.54:810][ 48]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.331 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-21.41.54:670][843]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.267 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-22.41.54:851][639]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.368 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.09-23.41.54:839][434]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.267 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.10-00.41.54:722][229]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.326 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.10-01.41.54:970][ 25]LogDerivedDataCache: C:/Users/Yuval2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.363 and deleted 0 file(s) with total size 0 MiB.
