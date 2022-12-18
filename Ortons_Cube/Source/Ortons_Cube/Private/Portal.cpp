@@ -169,7 +169,7 @@ void APortal::BeginPlay()
 
 	}
 
-	if (FVector::Dist(GetActorLocation(), FVector(-36000.0f, 0.0f, 46310.0f)) < 500) {		// BP->B [needs to change the x]
+	if (FVector::Dist(GetActorLocation(), FVector(-36000.0f, 0.0f, 46310.0f)) < 500) {		// BP->B 
 		portalID = 7;
 		fromRoomID = 5;
 		toRoomID = 1;
@@ -391,7 +391,7 @@ void APortal::BeginPlay()
 		portalID = 18;
 		fromRoomID = 22;
 		toRoomID = 5;
-		to = FVector(-44700.0f, 0.0f, 40920.0f);                // 
+		to = FVector(-45300.0f, 0.0f, 40920.0f);                // 
 	}
 
 	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, 0.0f, 40920.0f)) < 500) {		// BP->P  
@@ -574,15 +574,49 @@ void APortal::BeginPlay()
 	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
 		portalID = 30;
 	}
+
 	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
 		portalID = 31;
 	}
-	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// BP->BGP 
 		portalID = 32;
+		fromRoomID = 0;
+		toRoomID = 0;
+		to = FVector(0.0f, 0.0f, 0.0f);
+
 	}
-	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500 || FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// ???->??? || ???->???
+	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// BGP ->BP     
+		portalID = 32;
+		fromRoomID = 0;
+		toRoomID = 0;
+		to = FVector(0.0f, 0.0f, 0.0f);
+
+	}
+
+
+
+
+
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, 9000.0f, 46310.0f)) < 500) {		// BP->BPR 
 		portalID = 33;
+		fromRoomID = 5;
+		toRoomID = 6;
+		to = FVector(-45000.0f, 36300.0f, 46310.0f);
+
 	}
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, 36000.0f, 46310.0f)) < 500) {		// BPR ->BP     
+		portalID = 33;
+		fromRoomID = 6;
+		toRoomID = 5;
+		to = FVector(-45000.0f, 8700.0f, 46310.0f);
+
+	}
+
+
 
 
 
