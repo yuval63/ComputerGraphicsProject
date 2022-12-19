@@ -55,13 +55,28 @@ void ARedPlatform::Tick(float DeltaTime)
 				if (difference != 0.0f) {
 					switch (mode) {
 					case 0:
-						SetActorRotation(FRotator(originalRotation.Pitch + 180.0f * ((count - min) / difference), originalRotation.Yaw, originalRotation.Roll));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch + 180.0f * ((count - min) / difference), originalRotation.Yaw, originalRotation.Roll));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch - 180.0f * ((count - min) / difference), originalRotation.Yaw, originalRotation.Roll));
+						}
 						break;
 					case 1:
-						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f * ((count - min) / difference), originalRotation.Roll));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f * ((count - min) / difference), originalRotation.Roll));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw - 180.0f * ((count - min) / difference), originalRotation.Roll));
+						}
 						break;
 					case 2:
-						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f * ((count - min) / difference)));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f * ((count - min) / difference)));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll - 180.0f * ((count - min) / difference)));
+						}
 						break;
 					}
 				}
@@ -75,13 +90,28 @@ void ARedPlatform::Tick(float DeltaTime)
 					//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("HOT"));
 					switch (mode) {
 					case 0:
-						SetActorRotation(FRotator(originalRotation.Pitch + 180.0f, originalRotation.Yaw, originalRotation.Roll));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch + 180.0f, originalRotation.Yaw, originalRotation.Roll));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch - 180.0f, originalRotation.Yaw, originalRotation.Roll));
+						}
 						break;
 					case 1:
-						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f, originalRotation.Roll));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.0f, originalRotation.Roll));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw - 180.0f, originalRotation.Roll));
+						}
 						break;
 					case 2:
-						SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f));
+						if (positiveSpin) {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.0f));
+						}
+						else {
+							SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll - 180.0f));
+						}
 						break;
 					}
 
@@ -96,13 +126,28 @@ void ARedPlatform::Tick(float DeltaTime)
 						if (difference != 0.0f) {
 							switch (mode) {
 							case 0:
-								SetActorRotation(FRotator(originalRotation.Pitch + 180.f + (180.0f * ((count - min) / difference)), originalRotation.Yaw, originalRotation.Roll));
+								if (positiveSpin) {
+									SetActorRotation(FRotator(originalRotation.Pitch + (180.f + (180.0f * ((count - min) / difference))), originalRotation.Yaw, originalRotation.Roll));
+								}
+								else {
+									SetActorRotation(FRotator(originalRotation.Pitch - (180.f + (180.0f * ((count - min) / difference))), originalRotation.Yaw, originalRotation.Roll));
+								}
 								break;
 							case 1:
-								SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + 180.f + (180.0f * ((count - min) / difference)), originalRotation.Roll));
+								if (positiveSpin) {
+									SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw + (180.f + (180.0f * ((count - min) / difference))), originalRotation.Roll));
+								}
+								else {
+									SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw - (180.f + (180.0f * ((count - min) / difference))), originalRotation.Roll));
+								}
 								break;
 							case 2:
-								SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + 180.f + (180.0f * ((count - min) / difference))));
+								if (positiveSpin) {
+									SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll + (180.f + (180.0f * ((count - min) / difference)))));
+								}
+								else {
+									SetActorRotation(FRotator(originalRotation.Pitch, originalRotation.Yaw, originalRotation.Roll - (180.f + (180.0f * ((count - min) / difference)))));
+								}
 								break;
 							}
 						}

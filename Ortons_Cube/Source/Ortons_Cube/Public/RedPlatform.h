@@ -41,5 +41,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 		float startDelay = 0.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+		bool positiveSpin = true;
+
 	FRotator originalRotation;
 };
