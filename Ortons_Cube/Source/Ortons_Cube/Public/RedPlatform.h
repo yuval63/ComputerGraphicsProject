@@ -33,6 +33,9 @@ public:
 	float count = 0; // a loop that changes the stage of the block
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+		bool positiveSpin = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 	int mode = 0; // roll, Yaw or pitch.
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
@@ -41,8 +44,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 		float startDelay = 0.0f;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
-		bool positiveSpin = true;
+
 
 	FRotator originalRotation;
 };
