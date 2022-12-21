@@ -88,5 +88,12 @@ that work by the code itself) - 1-2 hours
 ![image](https://user-images.githubusercontent.com/92427271/207940885-b9729c6b-38e6-4d95-ba46-3dc33223ffa0.png)
 
 
+### Week 8
+### ------------------
+- Worked on 5 new levels, 2-3 hours for each level.
+- Added a pause menu (still has a specific error I need to fix) - 1 hour
+- Solved some bugs & improved some existing features like allowing red platforms to spin to backwards as well (1-2 hours)
 
+
+![image](https://user-images.githubusercontent.com/92427271/209005078-159d4878-bdd5-4c48-ab92-3c5e4158d9a2.png)
 
