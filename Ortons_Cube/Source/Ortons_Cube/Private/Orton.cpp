@@ -29,7 +29,7 @@ void AOrton::BeginPlay()
 	GetCharacterMovement()->JumpZVelocity = 700.f;
 	GetCharacterMovement()->MaxWalkSpeed = 1200.f;
 	GetCharacterMovement()->AirControl = 1.f;
- 
+
 	FTimerHandle TimerHandle;
 	GetWorldTimerManager().SetTimer(TimerHandle,this,&AOrton::giveEndingOne, 1.f , false, 3600.0f); // 60 sec * 30 min = 1,800
 
@@ -71,10 +71,12 @@ void AOrton::Tick(float DeltaTime)
 	}
 	
 
+
 	if (shouldKill) {
 		shouldKill = false;
 		kill();
 	}
+
 
 
 
@@ -347,7 +349,7 @@ void AOrton::kill() {
 
 	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(checkPoint);
 	setSpeed(FVector(0.f, 0.f, 0.f));
-	
+
 	if (deathsInRoom[currentRoom] < 99999) {
 		deathsInRoom[currentRoom]++;
 	}

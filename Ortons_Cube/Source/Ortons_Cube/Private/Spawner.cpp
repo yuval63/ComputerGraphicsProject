@@ -22,12 +22,12 @@ void ASpawner::BeginPlay()
 void ASpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (FVector3d::Dist(GetActorLocation(), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()) < 800) {
+	if (FVector3d::Dist(GetActorLocation(), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()) < 900) {
 
 		player = Cast<AOrton>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
 
-		player->setCheckPoint(FVector(GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z - 700.0f));
+		player->setCheckPoint(FVector(GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z - 300.0f));
 
 
 		//	if (GEngine) {
