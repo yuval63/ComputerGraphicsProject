@@ -24,6 +24,11 @@ protected:
 	
 	AOrton* player;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+	int personalId = -1; 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
+	int room = -1; //Maybe will be used in the future to show the player how many coins it got in each room? Each coin's room would be changed according to its coordinates.
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
