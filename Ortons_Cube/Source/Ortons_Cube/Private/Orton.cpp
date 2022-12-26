@@ -75,6 +75,7 @@ void AOrton::Tick(float DeltaTime)
 	if (shouldKill) {
 		shouldKill = false;
 		kill();
+
 	}
 
 

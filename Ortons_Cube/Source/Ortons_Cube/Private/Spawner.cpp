@@ -22,7 +22,8 @@ void ASpawner::BeginPlay()
 void ASpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (FVector3d::Dist(GetActorLocation(), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()) < 900) {
+	if (FVector3d::Dist(GetActorLocation(), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()) < 1100) {
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("hekki: %f,%f,%f"), GetActorLocation().X, GetActorLocation().Y, GetActorLocation().Z));
 
 		player = Cast<AOrton>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
