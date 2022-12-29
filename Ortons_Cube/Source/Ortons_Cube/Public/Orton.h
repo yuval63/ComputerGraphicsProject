@@ -35,6 +35,14 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UFUNCTION(BlueprintCallable)
+		bool getEndingMessage(int endingNum);
+
+	UFUNCTION(BlueprintCallable)
+		void setEndingMessage(int endingNum, bool newEndingMessagestate);
+
+
+
+	UFUNCTION(BlueprintCallable)
 	float getInteractDuration();
 
 	void setInteractDuration(int newVal);
@@ -65,7 +73,7 @@ public:
 	void setCheckPoint(FVector newCheckPoint);
 
 	UFUNCTION(BlueprintCallable)
-	int getEndingUnlocked(int num);
+	bool getEndingUnlocked(int num);
 
 	UFUNCTION(BlueprintCallable)
 	bool getRoomVisited(int ind);
@@ -97,8 +105,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void checkEndings();
 
+
 	UFUNCTION(BlueprintCallable)
 	int getTotalDeaths();
+
+
 
 
 
@@ -150,7 +161,11 @@ protected:
 
 	int coins = 0;
 	bool gems[7] = { false,false,false,false,false,false,false };
+
 	bool endingUnlocked[7] = { false,false,false,false,false,false,false };
+
+	bool showEndingMessage[7] = { false,false,false,false,false,false,false };
+
 	bool roomsVisited[27] = { false,false,false,false,false,false,false ,false,false,false,false,false,false,false,false,false ,false,false ,false,false,false,false,false,false,false ,false,false };
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")

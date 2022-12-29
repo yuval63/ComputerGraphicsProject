@@ -237,10 +237,13 @@ int AOrton::getGem(int gemNum) {
 }
 void AOrton::setGem(int gemNum, bool gotOrNot) {
 	gems[gemNum] = gotOrNot;
-	if (getGemAmount() == 7) {
-		endingUnlocked[4] = true;
-		checkEndings();
-		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Ending 4"));
+	if (endingUnlocked[4] == false) {
+		if (getGemAmount() == 7) {
+			endingUnlocked[4] = true;
+			showEndingMessage[4] = true;
+			checkEndings();
+			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Ending 4"));
+		}
 	}
 }
 
@@ -253,11 +256,13 @@ void AOrton::setCoins(int newCoins) {
 }
 void AOrton::addCoin() {
 	coins++;
-	if (coins == 300) {
-		endingUnlocked[2] = true;
-		checkEndings();
+	if (endingUnlocked[2] == false) {
+		if (coins == 300) {
+			endingUnlocked[2] = true;
+			showEndingMessage[2] = true;
+			checkEndings();
+		}
 		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Ending 2"));
-
 	}
 }
 
@@ -299,6 +304,7 @@ void AOrton::setCurrentRoomID(int newRoomID) {
 		}
 		if (visitedAllrooms == true) {
 			endingUnlocked[3] = true;
+			showEndingMessage[3] = true;
 			checkEndings();
 		}
 	}
@@ -320,6 +326,7 @@ void AOrton::setVsitedPortal(int ind, bool visited) {
 		}
 		if (deserveEndingFive == true) {
 			endingUnlocked[5] = true;
+			showEndingMessage[5] = true;
 			checkEndings();
 		}
 	}
@@ -368,15 +375,19 @@ void AOrton::kill() {
 		}
 		if (diedEnough == true) {
 		**/
-	if (totalDeaths >= 100) {
+
+	if (endingUnlocked[0] == false) {
+
+		if (totalDeaths >= 100) {
+			showEndingMessage[0] = true;
 			endingUnlocked[0] = true;
 			checkEndings();
 		}
-
+	}
 
 }
 
-int AOrton::getEndingUnlocked(int num) {
+bool AOrton::getEndingUnlocked(int num) {
 	return endingUnlocked[num];
 }
 
@@ -424,16 +435,30 @@ void AOrton::setDeathsInRoom(int ind, int amount) {
 
 
 void AOrton::checkEndings() {
-	bool secretEndingUnlocked = true;
-	for (int i = 0; i < 6; i++) {
-		if (endingUnlocked[i] == false) {
-			secretEndingUnlocked = false;
+	if (endingUnlocked[6] == false) {
+		bool secretEndingUnlocked = true;
+		for (int i = 0; i < 6; i++) {
+			if (endingUnlocked[i] == false) {
+				secretEndingUnlocked = false;
+			}
+		}
+
+		if (secretEndingUnlocked == true) {
+			endingUnlocked[6] = true;
+			showEndingMessage[6] = true;
+
 		}
 	}
+}
 
-	if (secretEndingUnlocked == true) {
-		endingUnlocked[6] = true;
-	}
+
+
+bool AOrton::getEndingMessage(int endingNum) {
+	return showEndingMessage[endingNum];
+}
+
+void AOrton::setEndingMessage(int endingNum, bool newEndingMessagestate) {
+	showEndingMessage[endingNum] = newEndingMessagestate;
 }
 
 
@@ -446,9 +471,12 @@ void AOrton::giveEndingOne() {
 				GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Ending One"));
 
 	}
-	endingUnlocked[1] = true;
 	**/
-	checkEndings();
+	if (endingUnlocked[1] == false) {
+		endingUnlocked[1] = true;
+		showEndingMessage[1] = true;
+		checkEndings();
+	}
 }
 
 FVector AOrton::getSpeed() {
@@ -494,3 +522,5 @@ bool AOrton::anotherGetterForSlide() {
 	return slides;
 }
 **/
+
+
