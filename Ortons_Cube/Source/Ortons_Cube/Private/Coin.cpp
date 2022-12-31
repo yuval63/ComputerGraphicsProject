@@ -26,6 +26,7 @@ void ACoin::Tick(float DeltaTime)
 	if (FVector3d::Dist(GetActorLocation(), GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation()) < 150) {
 		player = Cast<AOrton>(GetWorld()->GetFirstPlayerController()->GetPawn());
 		player->addCoin();
+		player->setCoinsInRoom(player->getCurrentRoomID(), player->getCoinsInRoom(player->getCurrentRoomID())+1);
 		Destroy();
 
 	}

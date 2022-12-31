@@ -660,18 +660,18 @@ void APortal::BeginPlay()
 
 
 
-	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// BP->BGP 
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, -9000.0f, 46310.0f)) < 500) {		// BP->BGP 
 		portalID = 32;
-		fromRoomID = 0;
-		toRoomID = 0;
-		to = FVector(0.0f, 0.0f, 0.0f);
+		fromRoomID = 5;
+		toRoomID = 3;
+		to = FVector(-45000.0f, -36300.0f, 46310.0f);
 
 	}
-	if (FVector::Dist(GetActorLocation(), FVector(0.0f, 0.0f, 0.0f)) < 500) {		// BGP ->BP     
+	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, -36000.0f, 46310.0f)) < 500) {		// BGP ->BP     
 		portalID = 32;
-		fromRoomID = 0;
-		toRoomID = 0;
-		to = FVector(0.0f, 0.0f, 0.0f);
+		fromRoomID = 3;
+		toRoomID = 5;
+		to = FVector(-45000.0f, -8700.0f, 46310.0f);
 
 	}
 
@@ -748,14 +748,14 @@ void APortal::BeginPlay()
 
 	if (FVector::Dist(GetActorLocation(), FVector(45000.0f, 9000.0f, 46310.0f)) < 500) {		// BY->BRY
 		portalID = 36;
-		fromRoomID = 0;
-		toRoomID = 0;
+		fromRoomID = 9;
+		toRoomID = 8;
 		to = FVector(45000.0f, 36300.0f, 46310.0f);
 	}
 	if (FVector::Dist(GetActorLocation(), FVector(45000.0f, 36000.0f, 46310.0f)) < 500) {		// BRY->BY
 		portalID = 36;
-		fromRoomID = 0;
-		toRoomID = 0;
+		fromRoomID = 8;
+		toRoomID = 9;
 		to = FVector(45000.0f, 8700.0f, 46310.0f);
 	}
 
@@ -784,14 +784,14 @@ void APortal::BeginPlay()
 
 	if (FVector::Dist(GetActorLocation(), FVector(-9000.0f, -45000.0f, -43690.0f)) < 500) {		// GO->GOP
 		portalID = 38;
-		fromRoomID = 0;
-		toRoomID = 0;
+		fromRoomID = 11;
+		toRoomID = 12;
 		to = FVector(-36300.0f, -45000.0f, -43690.0f);
 	}
 	if (FVector::Dist(GetActorLocation(), FVector(-36000.0f, -45000.0f, -43690.0f)) < 500) {		// GOP->GO
 		portalID = 38;
-		fromRoomID = 0;
-		toRoomID = 0;
+		fromRoomID = 12;
+		toRoomID = 11;
 		to = FVector(-8700.0f, -45000.0f, -43690.0f);
 	}
 
@@ -1062,7 +1062,7 @@ void APortal::BeginPlay()
 		portalID = 53;
 		fromRoomID = 20;
 		toRoomID = 25;
-		to = FVector(44700.0f, 45000.0f, -4040.0f);
+		to = FVector(45000.0f, 45300.0f, -4040.0f);
 	}
 }
 

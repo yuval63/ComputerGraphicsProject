@@ -52,7 +52,7 @@ public:
 	void setInteractWarning(int newVal);
 
 	UFUNCTION(BlueprintCallable)
-	int getGem(int gemNum);
+		bool getGem(int gemNum);
 	UFUNCTION(BlueprintCallable)
 	void setGem(int gemNum,bool gotOrNot);
 
@@ -109,9 +109,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 	int getTotalDeaths();
 
+	UFUNCTION(BlueprintCallable)
+		int getCoinsInRoom(int roomID);
 
-
-
+	UFUNCTION(BlueprintCallable)
+		void setCoinsInRoom(int roomID,int newCoinInRooms);
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
@@ -159,7 +161,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 		bool slides = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")
 	int coins = 0;
+	int coinsInRoom[27] = { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0,0 };
 	bool gems[7] = { false,false,false,false,false,false,false };
 
 	bool endingUnlocked[7] = { false,false,false,false,false,false,false };
