@@ -97,3 +97,19 @@ that work by the code itself) - 1-2 hours
 
 ![image](https://user-images.githubusercontent.com/92427271/209005078-159d4878-bdd5-4c48-ab92-3c5e4158d9a2.png)
 
+
+### Week 9
+### ------------------
+
+- 4 daily new levels, 2-3 hours for each level.
+- Updated the HUD to show the coins in room & the color of diamonds the player got. 1 hour.
+- Added a widget for when the player completed an ending so it would know it did it. 1 hour.
+
+The new levels, an example for the new hud update:
+
+![image](https://user-images.githubusercontent.com/92427271/210152290-f7723db7-f64b-4e3f-82ab-dc1a32461ec9.png)
+
+An example for the new ending message (for the blue ending):
+
+![image](https://user-images.githubusercontent.com/92427271/210152288-b2fe66fe-e640-4d68-86cf-9c4435087f0d.png)
+
