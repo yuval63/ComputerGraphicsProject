@@ -107,9 +107,9 @@ that work by the code itself) - 1-2 hours
 
 The new levels, an example for the new hud update:
 
-![image](https://user-images.githubusercontent.com/92427271/210152290-f7723db7-f64b-4e3f-82ab-dc1a32461ec9.png)
+![image](https://user-images.githubusercontent.com/92427271/210152288-b2fe66fe-e640-4d68-86cf-9c4435087f0d.png)
 
 An example for the new ending message (for the blue ending):
 
-![image](https://user-images.githubusercontent.com/92427271/210152288-b2fe66fe-e640-4d68-86cf-9c4435087f0d.png)
+![image](https://user-images.githubusercontent.com/92427271/210152290-f7723db7-f64b-4e3f-82ab-dc1a32461ec9.png)
 
