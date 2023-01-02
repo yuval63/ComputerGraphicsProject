@@ -25,6 +25,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable)
+		virtual void OnInteraction() override;
+
 		FVector originalLocation;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NewStatus")

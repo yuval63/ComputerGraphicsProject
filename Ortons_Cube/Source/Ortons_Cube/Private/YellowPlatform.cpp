@@ -51,4 +51,8 @@ void AYellowPlatform::Tick(float DeltaTime)
 		SetActorLocation(newLocation);
 	}
 }
+// Only for killer pushers
+void AYellowPlatform::OnInteraction() {
 
+	player->kill();
+}

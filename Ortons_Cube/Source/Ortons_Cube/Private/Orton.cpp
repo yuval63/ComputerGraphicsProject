@@ -30,10 +30,12 @@ void AOrton::BeginPlay()
 	GetCharacterMovement()->MaxWalkSpeed = 1200.f;
 	GetCharacterMovement()->AirControl = 1.f;
 
+	roomsVisited[currentRoom] = true;
+
+
 	FTimerHandle TimerHandle;
 	GetWorldTimerManager().SetTimer(TimerHandle,this,&AOrton::giveEndingOne, 1.f , false, 3600.0f); // 60 sec * 30 min = 1,800
 
-	roomsVisited[0] = true;
 
 	/**
 	interact = nullptr;
