@@ -730,10 +730,10 @@ void APortal::BeginPlay()
 		portalID = 35;
 		fromRoomID = 7;
 		toRoomID = 8;
-		to = FVector(36300.0f, 0.0f, 46310.0f);
+		to = FVector(36300.0f, 45000.0f, 46310.0f);
 	}
 
-	if (FVector::Dist(GetActorLocation(), FVector(36000.0f, 0.0f, 46310.0f)) < 500) {		// BRY->BR
+	if (FVector::Dist(GetActorLocation(), FVector(36000.0f, 45000.0f, 46310.0f)) < 500) {		// BRY->BR
 		portalID = 35;
 		fromRoomID = 8;
 		toRoomID = 7;
@@ -1038,17 +1038,17 @@ void APortal::BeginPlay()
 
 
 
-	if (FVector::Dist(GetActorLocation(), FVector(45000.0f, 45000.0f, 0.0f)) < 500) {		// RY -> BRY
+	if (FVector::Dist(GetActorLocation(), FVector(45000.0f, 45000.0f, 6380.0f)) < 500) {		// RY -> BRY
 		portalID = 52;
 		fromRoomID = 25;
 		toRoomID = 8;
-		to = FVector(44700.0f, 45000.0f, 6380.0f);
+		to = FVector(44700.0f, 45000.0f, 40920.0f);
 	}
 	if (FVector::Dist(GetActorLocation(), FVector(45000.0f, 45000.0f, 40920.0f)) < 500) {		// BRY -> RY
 		portalID = 52;
 		fromRoomID = 8;
 		toRoomID = 25;
-		to = FVector(44700.0f, 45000.0f, 40920.0f);
+		to = FVector(45300.0f, 45000.0f, 6380.0f);
 	}
 
 
