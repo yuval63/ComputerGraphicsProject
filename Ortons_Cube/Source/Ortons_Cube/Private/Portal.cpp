@@ -559,7 +559,7 @@ void APortal::BeginPlay()
 		portalID = 26;
 		fromRoomID = 26;
 		toRoomID = 9;
-		to = FVector(45000.0f, -300.0f, 40920.0f);
+		to = FVector(45300.0f, 0.0f, 40920.0f);
 	}
 
 
@@ -839,7 +839,7 @@ void APortal::BeginPlay()
 		portalID = 41;
 		fromRoomID = 14;
 		toRoomID = 12;
-		to = FVector(-45000.0f, -44700.0f, -38640.0f);
+		to = FVector(-45300.0f, -45000.0f, -38640.0f);
 	}
 
 	if (FVector::Dist(GetActorLocation(), FVector(-45000.0f, -45000.0f, -38640.0f)) < 500) {		// GOP->GP
