@@ -113,3 +113,13 @@ An example for the new ending message (for the blue ending):
 
 ![image](https://user-images.githubusercontent.com/92427271/210152290-f7723db7-f64b-4e3f-82ab-dc1a32461ec9.png)
 
+
+### Week 10
+### ------------------
+- 4 daily new levels, 2-3 hours for each level.
+- Some minor bug fixes (portal coordinates for example) - 1/2 and hour
+- placed the last couple gems in the levels - 1/2 an hour
+
+![image](https://user-images.githubusercontent.com/92427271/211098895-5c77eab0-95bb-4ec1-9bdc-6d119815607e.png)
+
+
