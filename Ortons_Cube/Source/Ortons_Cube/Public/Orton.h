@@ -189,7 +189,6 @@ protected:
 		int showInteractWarning = 0;
 
 
-
 	UAnimSequence* Anim;
 
 	APlayerController* apc;
