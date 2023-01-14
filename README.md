@@ -122,4 +122,15 @@ An example for the new ending message (for the blue ending):
 
 ![image](https://user-images.githubusercontent.com/92427271/211098895-5c77eab0-95bb-4ec1-9bdc-6d119815607e.png)
 
+### Week 11
+### ------------------
+- finished last level - 4 hours
+- impletemented the edning system - 4 hours (endings portal that only open when the player finished the requirements, ending presentation, etc...)
+- created all 7 endings for the game - 4 hours (everything required for each ending like different title color, or different scenes)
+
+![image](https://user-images.githubusercontent.com/92427271/212494385-8ce3377d-9b8a-40b2-9dc1-411b12f7198e.png)
+![image](https://user-images.githubusercontent.com/92427271/212494392-0f9b86e0-e04c-40d8-be25-9e639fc85fde.png)
+![image](https://user-images.githubusercontent.com/92427271/212494398-0f06a5ba-dfe9-44da-a930-451cc44253d4.png)
+
+
 
