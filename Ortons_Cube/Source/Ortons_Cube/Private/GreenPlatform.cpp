@@ -1,8 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "ColoredPlatform.h"
 
 #include "GreenPlatform.h"
+
+#include "ColoredPlatform.h"
+
 
 // Sets default values
 AGreenPlatform::AGreenPlatform()

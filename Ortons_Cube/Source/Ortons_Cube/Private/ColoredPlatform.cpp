@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Orton.h"
 #include "ColoredPlatform.h"
+
+#include "Orton.h"
 
 // Sets default values
 AColoredPlatform::AColoredPlatform()

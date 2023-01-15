@@ -1,8 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "BlackPlatform.h"
+
+
 #include "ColoredPlatform.h"
 
-#include "BlackPlatform.h"
 
 // Sets default values
 ABlackPlatform::ABlackPlatform()

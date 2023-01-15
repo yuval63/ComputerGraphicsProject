@@ -1,10 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
+#include "OrtonEnding.h"
+
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 
-#include "OrtonEnding.h"
 // Sets default values
 AOrtonEnding::AOrtonEnding()
 {
